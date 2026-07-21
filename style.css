@@ -708,3 +708,20 @@ a:active,
 .carborundum-marker {
     z-index: 10000 !important;
 }
+
+/* Push the 1979 Power Plant Reservoir survey overlay behind markers */
+.leaflet-overlay-pane {
+  z-index: 350 !important;
+}
+
+.leaflet-marker-pane {
+  z-index: 600 !important;
+}
+
+.leaflet-tooltip-pane {
+  z-index: 650 !important;
+}
+
+.leaflet-popup-pane {
+  z-index: 700 !important;
+}
