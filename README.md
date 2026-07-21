@@ -12,7 +12,7 @@ GitHub Pages package for the Niagara industrial and radiological history map.
 - Added separate legend and layer-control entries for the two waterways
 - Retained clear warnings that the traces are approximate documentary overlays, not surveyed GIS centerlines or contamination boundaries
 
-Upload all files to the repository root and publish GitHub Pages from the `main` branch and `/ (root)`.
+Upload all files to the repository root and publish GitHub Pages from the `main` branch and `/ (root)`. 
 
 
 ## v0.83 waterway correction
