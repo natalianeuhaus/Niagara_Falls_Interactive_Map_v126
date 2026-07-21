@@ -698,3 +698,9 @@ a:active,
     visibility: hidden;
   }
 }
+
+/* Bring Carborundum marker to the front */
+.leaflet-marker-icon[title*="Carborundum"],
+.leaflet-interactive[aria-label*="Carborundum"] {
+    z-index: 10000 !important;
+}
