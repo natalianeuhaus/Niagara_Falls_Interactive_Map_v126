@@ -741,3 +741,9 @@ a:active,
 .leaflet-popup-pane {
   z-index: 700 !important;
 }
+
+/* Make survey-area polygons lighter so markers remain visible */
+.leaflet-overlay-pane svg path.leaflet-interactive {
+  fill-opacity: 0.06 !important;
+  stroke-width: 1px !important;
+}
