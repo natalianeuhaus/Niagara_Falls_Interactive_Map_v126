@@ -704,3 +704,7 @@ a:active,
 .leaflet-interactive[aria-label*="Carborundum"] {
     z-index: 10000 !important;
 }
+
+.carborundum-marker {
+    z-index: 10000 !important;
+}
