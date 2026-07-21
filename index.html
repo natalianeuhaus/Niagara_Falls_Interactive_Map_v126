@@ -788,7 +788,7 @@ function aerialSurveyPopup(title,isotope,range,detail){
 [
  {title:"Niagara Falls International Airport / Pine Avenue survey area",bounds:[[43.087,-78.990],[43.129,-78.914]]},
  {title:"Power plant reservoir and surrounding neighborhoods survey area",bounds:[[43.118,-79.055],[43.177,-78.965]]}
-].forEach(f=>{const l=L.rectangle(f.bounds,{color:"#4d4d4d",weight:2,dashArray:"8 7",fillColor:"#777",fillOpacity:.1}).bindPopup(aerialSurveyPopup(f.title,"Survey footprint","Helicopter flight lines were approximately 300 feet apart.","General area represented by the published figure.")).addTo(aerial1979Layer);aerialMapLayers.push(l)});
+].forEach(f=>{const l=L.rectangle(f.bounds,{color:"#4d4d4d",weight:2,dashArray:"8 7",fillOpacity:0}).bindPopup(aerialSurveyPopup(f.title,"Survey footprint","Helicopter flight lines were approximately 300 feet apart.","General area represented by the published figure.")).addTo(aerial1979Layer);aerialMapLayers.push(l)});
 [
  {center:[43.104,-78.967],radius:950,color:"#167A54",fill:"#2B9A70",title:"Pine Avenue / airport thorium anomaly",isotope:"Th-232 indicated by Tl-208 and Ac-228",range:"Aerial contour above local background; the published figure includes categories extending to approximately 30–50 µR/h.",detail:"Principal Th-232-associated airport-area anomaly."},
  {center:[43.113,-78.948],radius:700,color:"#B33A1D",fill:"#D85B2D",title:"Airport-area radium anomaly — working area A",isotope:"Ra-226 indicated by Bi-214",range:"Aerial anomaly above local background of approximately 8–10 µR/h.",detail:"Broad interpretive placement based on the airport figure."},
