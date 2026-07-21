@@ -725,3 +725,19 @@ a:active,
 .leaflet-popup-pane {
   z-index: 700 !important;
 }
+/* Send the 1978–1979 aerial radiological survey behind markers */
+.leaflet-overlay-pane {
+  z-index: 300 !important;
+}
+
+.leaflet-marker-pane {
+  z-index: 600 !important;
+}
+
+.leaflet-tooltip-pane {
+  z-index: 650 !important;
+}
+
+.leaflet-popup-pane {
+  z-index: 700 !important;
+}
