@@ -189,7 +189,7 @@ const colors={
 };
 const esc=v=>String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");
 
-const map=L.map("map",{zoomControl:false,preferCanvas:true,zoomSnap:0.25,zoomDelta:0.25}).setView([43.11,-79.052],12.25);
+const map=L.map("map",{zoomControl:false,preferCanvas:true,zoomSnap:0.25,zoomDelta:0.75}).setView([43.11,-79.052],12.25);
 
 map.createPane("processNumbersPane");
 map.getPane("processNumbersPane").style.zIndex="650";
